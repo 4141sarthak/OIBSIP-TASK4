@@ -88,6 +88,11 @@ weather_app/
 ├── api.py
 ├── ui.py
 ├── utils.py
+├── README.md
+├── Project Report.pdf
+├── LICENSE
+├── requirements.txt
+├── Screenshots/
 
 ---
 
