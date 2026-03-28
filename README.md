@@ -84,14 +84,23 @@ python main.py
 
 weather_app/
 │
+
 ├── main.py
+
 ├── api.py
+
 ├── ui.py
+
 ├── utils.py
+
 ├── README.md
+
 ├── Project Report.pdf
+
 ├── LICENSE
+
 ├── requirements.txt
+
 ├── Screenshots/
 
 ---
