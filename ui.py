@@ -24,7 +24,7 @@ class WeatherApp:
 
         self.build_ui()
 
-    # ------------------ UI ------------------
+  
 
     def build_ui(self):
         self.main_frame = ctk.CTkFrame(self.root, corner_radius=20)
@@ -63,7 +63,7 @@ class WeatherApp:
         self.chart_frame = ctk.CTkFrame(self.main_frame)
         self.chart_frame.pack(pady=20, fill="both", expand=True)
 
-    # ------------------ FUNCTIONS ------------------
+   
 
     def search(self):
         city = self.entry.get()
@@ -107,7 +107,7 @@ class WeatherApp:
         self.plot_hourly(data)
         self.plot_weekly(data)
 
-    # ------------------ ICON ------------------
+ 
 
     def load_icon(self, icon_url):
         try:
@@ -122,7 +122,6 @@ class WeatherApp:
         except:
             return None
 
-    # ------------------ CHARTS ------------------
 
     def plot_hourly(self, data):
         for widget in self.chart_frame.winfo_children():
